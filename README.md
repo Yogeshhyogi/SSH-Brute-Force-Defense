@@ -15,3 +15,20 @@ SSH (Secure Shell) is a critical protocol for remote access and secure communica
 Mitigating Brute-Force Attacks
 
 By analyzing SSH logs and identifying suspicious activity, this project aims to help system administrators proactively detect and mitigate brute-force attacks, enhancing the security of their CentOS VMs
+
+## Steps to run
+### 1. Create python virtual env and activate
+```
+python3 -m venv .venv 
+source .venv/bin/activate
+````
+
+### 2. Install requirements library
+```
+pip3 install -r requirements.txt
+```
+
+### 3. Run 
+```
+python analyze_ssh_logs.py 
+```
